@@ -1,0 +1,259 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.listheightauto{
+	margin-left:-20px;
+	overflow:hidden;
+	min-height:400px;
+}
+
+.feicard{
+    height:200px;
+    float: left;
+    padding-left:20px;
+    margin-top:20px;
+    border-radius:@border-radius-base;
+    -webkit-border-radius:@border-radius-base;
+}
+.feicardAnimate{
+	 -webkit-transition: all .2s linear;
+	 transition: all .2s linear;
+}
+.feicardAnimate:hover {
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -webkit-transform: box-shadow;
+    transform: box-shadow;
+    margin-top: -2px;
+}
+.feiRed{
+	background:#ffe9e9;
+	padding:10px;
+}
+.feiYellow{
+	background:#fff4cc;
+	padding:10px;
+}
+.feiGreen{
+	background:#d3ffcc;
+	padding:10px;
+}
+.feiBlue{
+	background:#f9f4ff;
+	padding:10px;
+	border-bottom:1px dashed #eee
+}
+.feiimg{
+    font-size: 50px;
+    color:#969da5;
+}
+.feiprotect{
+    height: 120px;
+    background:#fff;
+    padding:10px;
+}
+.feiinput input{
+    height: 24px;
+    margin-bottom: 10px;
+    border:none;
+    padding:0 10px;
+    line-height:24px;
+    width:100%;
+    background:none;
+    color:#333;
+    border-radius:none !important;
+    position:relative
+}
+.feiinput .ant-input-wrapper::after{
+	content:'';
+	width:10px;
+	height:10px;
+	background:red;
+	position:absolute;
+	top:0;
+	right:0;
+
+}
+
+.feiinput .feiiptext,.feiinput .feinametext{
+	display:block;
+	color:#333;
+	padding:0 10px;
+	line-height:24px;
+}
+
+.feiinput .feinametext{
+   margin-bottom:10px;
+   position:relative;
+}
+.feiinput .feinametext i{
+	position:absolute;
+	top:10px;
+	right:10px
+}
+.feinameOverfl{
+	line-height: 24px;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+:global{
+	.ant-input{
+		border-radius:none !important;
+		-webkit-border-radius:none !important;
+		-moz-border-radius:none !important;
+	}
+}
+.feiinput input:focus{
+	background:#fff;
+	outline:none
+}
+.feiinput input:nth-child(2){
+	margin:0
+}
+.feibiaoti p{
+	font-size:14px;
+	margin-top:3px;
+    margin-bottom: 10px;
+    color: black;
+}
+.feibiaoti p:nth-child(2){
+	margin:0
+}
+.feibaohu{
+	position:relative;
+    width:90px;
+    padding-right:10px;
+    border-right: 1px solid #eee;
+    float: left;
+    text-align: center;
+}
+.feibaohu i{
+	position:absolute;
+	top:16px;
+	left:16px;
+	font-size:4em
+}
+.weibaocolor{
+	color:#e9cd38;
+}
+.weilinecolor{
+   color:#666;
+}
+.feialert{
+    margin-left:100px;
+    position: relative;
+}
+.feiwords{
+    font-size: 14px;
+    margin-top:-4px;
+    color:#666
+}
+.feispan{
+    color:coral;
+}
+.feigaojing{
+    font-size: 14px;
+    margin:10px;
+    color:#666
+}
+.feiloudong i{
+    font-size: 40px;
+    float:left
+}
+.feigaowei{
+    color: #ff6969;
+}
+.feisgreen{
+	color:#38da46
+}
+.feisyellow{
+	color:#f1d543
+}
+.feisBlack{
+	color:#666
+}
+.feizhongwei{
+    color:#f79945;
+}
+.feidiwei{
+    color: darkgray;
+}
+.feigaoweibox{
+	margin-top:8px;
+	padding-left:10px;
+	color:#666;
+    height:40px;
+    float: left;
+    position: relative;
+}
+.feizhongweibox{
+	margin-top:8px;
+	padding-left:10px;
+	color:#666;
+    height:40px;
+    float: left;
+    position: relative;
+}
+.feidiweibox{
+	margin-top:8px;
+	padding-left:10px;
+	color:#666;
+    height:40px;
+    float: left;
+    position: relative;
+}
+.feiokBox{
+	margin-top:8px;
+	padding-left:10px;
+	height:40px;
+	float:left;
+	width:100%;
+	
+}
+.feiokBox h2{
+	line-height:40px;
+	margin-left:10px;
+	float:left;
+}
+
+.gaoweidl{
+    font-size: 10px;
+    margin-top:3px;
+    text-align: center;
+}
+.zhongweidl{
+    font-size: 10px;
+    margin-top:3px;
+    text-align: center;
+}
+.diweidl{
+    font-size: 10px;
+    margin-top:3px;
+    text-align: center;
+}
+.feimessage{
+	min-height:35px;
+	min-width:100px;
+	overflow:hidden;
+}
+.feimessage li{
+    height: 32px;
+    line-height: 32px;
+}
+.feimessage li i{
+	color:red;
+	margin-right:4px;
+}
+.scrollStyles{
+	padding:15px;
+	text-align:center;
+	width:100%;
+	clear:both;
+	margin-top:10px;
+	line-height:30px;
+	color:#888
+}
